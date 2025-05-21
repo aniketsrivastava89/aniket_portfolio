@@ -1,0 +1,244 @@
+/* Reset and base */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #121212;
+  color: #e0e0e0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+a {
+  color: #bb86fc;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #d4afff;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #1f1f1f;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: center;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar ul li {
+  font-weight: 600;
+}
+
+.navbar ul li a {
+  color: #e0e0e0;
+  text-decoration: none;
+  padding-bottom: 4px;
+  transition: color 0.3s ease, border-bottom-color 0.3s ease;
+}
+
+.navbar ul li a:hover,
+.navbar ul li .active {
+  color: #bb86fc;
+  border-bottom: 3px solid #bb86fc;
+}
+
+/* Main container */
+main {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 0 1.5rem;
+}
+
+/* Sections */
+.section {
+  margin-bottom: 2.5rem;
+  padding: 1.5rem 2rem;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgb(187 134 252 / 0.3);
+}
+
+/* Headings */
+h2 {
+  font-size: 2.25rem;
+  border-bottom: 3px solid #bb86fc;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1.25rem;
+}
+
+/* Project list cards */
+.project-list {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+}
+
+.project-list li {
+  background-color: #222;
+  border-radius: 10px;
+  box-shadow: 0 0 15px #bb86fc50;
+  padding: 1rem 1.25rem;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  cursor: default;
+}
+
+.project-list li:hover {
+  box-shadow: 0 0 25px #bb86fcaa;
+  transform: translateY(-5px);
+}
+
+.project-list h3 {
+  margin-top: 0;
+}
+
+/* Skills badges */
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 0;
+  list-style: none;
+}
+
+.skills-list li {
+  background-color: #333;
+  padding: 0.6rem 1.2rem;
+  border-radius: 20px;
+  box-shadow: 0 0 15px #bb86fc66;
+  font-weight: 600;
+  user-select: none;
+  transition: background-color 0.3s ease;
+  cursor: default;
+}
+
+.skills-list li:hover {
+  background-color: #bb86fc;
+  color: #121212;
+  box-shadow: 0 0 20px #bb86fccc;
+}
+
+/* Experience job cards */
+.experience .job {
+  background-color: #222;
+  padding: 1rem 1.25rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #bb86fc55;
+  margin-bottom: 1rem;
+  transition: box-shadow 0.3s ease;
+  cursor: default;
+}
+
+.experience .job:hover {
+  box-shadow: 0 0 20px #bb86fcaa;
+}
+
+/* Contact section */
+.contact p {
+  margin: 0.7rem 0;
+}
+
+.contact a {
+  color: #bb86fc;
+  font-weight: 600;
+}
+
+.contact a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  main {
+    padding: 0 1rem;
+  }
+
+  .project-list {
+    grid-template-columns: 1fr;
+  }
+
+  .skills-list {
+    justify-content: center;
+  }
+
+  .about-content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .about-image {
+    width: 120px;
+    height: 120px;
+  }
+
+  .about-text {
+    max-width: 100%;
+  }
+}
+
+/* ABOUT SECTION */
+.about-heading {
+  text-align: center;
+  color: #bb86fc;
+  margin-bottom: 1.5rem;
+}
+
+.about-content {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-bottom: 1.5rem;
+}
+
+.about-image {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.6);
+  flex-shrink: 0;
+}
+
+.about-text {
+  flex: 1;
+  max-width: 700px;
+}
+
+/* Resume download button */
+.download-button {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #bb86fc;
+  color: #121212;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.download-button:hover {
+  background-color: #9a6bdb;
+  color: #fff;
+}
