@@ -11,21 +11,20 @@ const About = () => {
         padding: '20px',
         fontFamily: "'Segoe UI', Tahoma, Geneva, Verdana, sans-serif",
         lineHeight: '1.6',
-        color: '#e0e0e0', // light text
+        color: '#e0e0e0',
       }}
     >
       <h2
         style={{
           textAlign: 'center',
           marginBottom: '20px',
-          color: '#a4b8ff', // soft light blue
+          color: '#a4b8ff',
         }}
       >
         About Me
       </h2>
 
       <div style={{ display: 'flex', alignItems: 'flex-start', gap: '20px' }}>
-        {/* Image + Button container */}
         <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
           <img
             src={`${process.env.PUBLIC_URL}/mee.jpg`}
@@ -55,27 +54,27 @@ const About = () => {
               textAlign: 'center',
             }}
           >
-           Resume
+            Resume
           </a>
         </div>
 
-        {/* Text content */}
         <div>
           <p>
-            Hi! I'm <strong style={{ color: '#ffffff' }}>Aniket Srivastava</strong>, a dedicated and detail-oriented
-            Computer Science graduate with hands-on experience in manual software testing and full-stack development. I
-            am passionate about building efficient, user-friendly applications and have a strong foundation in Python,
-            JavaScript, and modern web frameworks.
+            Hello! I'm <strong style={{ color: '#ffffff' }}>Aniket Srivastava</strong>, a passionate and detail-driven
+            Computer Science graduate with practical experience in both manual software testing and full-stack web
+            development. My technical skill set includes <strong>Python</strong>, <strong>JavaScript</strong>, and modern
+            frameworks for building intuitive, scalable applications.
           </p>
           <p style={{ color: '#cccccc' }}>
-            Currently working as a Manual Tester at{' '}
-            <strong style={{ color: '#ffffff' }}>QualityKiosk Technologies Pvt. Ltd.</strong>, I’m deeply involved in
-            functional, system, and unit testing of enterprise applications. I enjoy taking on challenging problems and
-            contributing to high-quality software delivery.
+            I am currently working as a <strong style={{ color: '#ffffff' }}>Manual Test Engineer</strong> in the
+            <strong style={{ color: '#ffffff' }}> insurance domain</strong>, where I focus on delivering high-quality,
+            reliable insurance products. My responsibilities include creating and executing test cases, performing
+            <strong> functional, system, unit, and sanity testing</strong>, and ensuring product stability and
+            performance throughout the development lifecycle.
           </p>
           <p style={{ color: '#bbbbbb' }}>
-            I'm always eager to learn new technologies, improve my skills, and collaborate with passionate teams to
-            create impactful digital experiences.
+            I’m a proactive learner who thrives in collaborative environments, and I am always looking for opportunities
+            to expand my technical horizons and contribute to meaningful, high-impact projects.
           </p>
         </div>
       </div>
