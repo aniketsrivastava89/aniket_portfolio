@@ -7,13 +7,13 @@ const Experience = () => {
       <h2>Experience</h2>
 
       <div className="job">
-        <h3>Manual Tester</h3>
-        <p><em>QualityKiosk Technologies Pvt. Ltd.</em> | July 2024 – Present</p>
+        <h3>Test Engineer</h3>
+        <p><em>1TX Pvt. Ltd.</em> | April 2025 – Present</p>
         <ul>
           <li>Performed functional, system, and regression testing in the insurance domain.</li>
-          <li>Created and executed detailed test cases to ensure software quality.</li>
+          <li>Created and executed detailed test cases to ensure products quality.</li>
           <li>Logged and tracked bugs using Jira and collaborated with developers to resolve issues.</li>
-          <li>Contributed to delivering high-quality software with a focus on user experience and reliability.</li>
+          <li>Contributed to delivering high-quality products with a focus on user experience and reliability.</li>
         </ul>
       </div>
 
