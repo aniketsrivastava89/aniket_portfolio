@@ -12,7 +12,7 @@ const Projects = () => {
             A personal portfolio website developed using <strong>React</strong>, <strong>React Router</strong>, and <strong>CSS</strong> to showcase my skills, experience, and projects. 
             It features smooth navigation, responsive design, and a clean user interface. This project reflects my frontend capabilities and understanding of component-based architecture.
           </p>
-          <a href="https://github.com/yourusername/portfolio" target="_blank" rel="noopener noreferrer">GitHub</a>
+          <a href="https://github.com/aniketsrivastava89/aniket_portfolio" target="_blank" rel="noopener noreferrer">GitHub</a>
         </li>
 
         <li>
@@ -24,11 +24,11 @@ const Projects = () => {
         </li>
 
         <li>
-          <h3>📝 Blogosphere Foundry</h3>
-          <p>
-            A dynamic blogging platform designed for creators to write, edit, and publish blog posts. Built using <strong>HTML</strong>, <strong>CSS</strong>, <strong>JavaScript</strong>, and <strong>Firebase</strong>. Includes user authentication, real-time content updates, and a rich text editor. This project aimed to fill the gap for beginner bloggers wanting a simple yet powerful space to express ideas.
-          </p>
-          <a href="https://github.com/yourusername/blogosphere-foundry" target="_blank" rel="noopener noreferrer">GitHub</a>
+          <h3>🛍️ IndianShoppingHub</h3>
+          <p><strong>IndianShoppingHub</strong> is a dynamic and scalable e-commerce platform tailored for modern online retail experiences. Built using <strong>JavaScript</strong>, <strong>SCSS</strong>, <strong>HTML</strong>, and powered by <strong>Strapi</strong> (a Node.js-based headless CMS), this project showcases a complete full-stack development approach—from intuitive user interfaces to robust backend management.</p>
+          <p>The platform enables seamless product browsing, shopping cart functionality, and real-time inventory control, all backed by a flexible content management system. It emphasizes clean design, efficient data flow, and user-first interactions.</p>
+
+          <a href="https://github.com/aniketsrivastava89/IndianShoppingHub" target="_blank" rel="noopener noreferrer">GitHub</a>
         </li>
 
         <li>
