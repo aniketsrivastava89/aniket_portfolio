@@ -8,7 +8,7 @@ const Skills = () => {
       <ul className="skills-list">
         <li>Programming Languages: Python, Java, C, JavaScript</li>
         <li>Frontend: HTML5, CSS3, React.js, Bootstrap</li>
-        <li>Backend & Frameworks: Django</li>
+        <li>Backend & Frameworks: Django, ReactJs</li>
         <li>Database: SQL</li>
         <li>Tools & Platforms: Git, GitHub, VS Code, Jupyter Notebook, PyCharm, Dev C++</li>
         <li>Testing: Manual Testing, Test Case Design, Jira, Selenium (Basics)</li>
