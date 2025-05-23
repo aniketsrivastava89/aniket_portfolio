@@ -66,10 +66,10 @@ const About = () => {
             frameworks for building intuitive, scalable applications.
           </p>
           <p style={{ color: '#cccccc' }}>
-            I am currently working as a <strong style={{ color: '#ffffff' }}>Manual Test Engineer</strong> in the
+            I am currently working as a <strong style={{ color: '#ffffff' }}>Manual Test Engineer</strong> at <strong style={{ color: '#ffffff' }}>1TX Pvt. Ltd.</strong>in the
             <strong style={{ color: '#ffffff' }}> insurance domain</strong>, where I focus on delivering high-quality,
             reliable insurance products. My responsibilities include creating and executing test cases, performing
-            <strong> functional, system, unit, and sanity testing</strong>, and ensuring product stability and
+            <strong> functional, regression and sanity testing</strong>, and ensuring product stability and
             performance throughout the development lifecycle.
           </p>
           <p style={{ color: '#bbbbbb' }}>
