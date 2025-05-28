@@ -38,8 +38,8 @@ const About = () => {
             }}
           />
           <a
-            href="/ANIKET_SRIVASTAVA_RESUME.pdf"
-            download="ANIKET_SRIVASTAVA_RESUME.pdf"
+            href="/Aniket_Srivastava_Resume.pdf"
+            download="Aniket_Srivastava_Resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
             style={{
